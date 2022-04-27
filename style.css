@@ -1,0 +1,290 @@
+* {
+    margin: 5px;
+    padding: 2px;
+
+}
+
+.h3-subrayado {
+    text-decoration: underline;
+    margin: 3px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.h2-encuadro {
+    border: solid 2px greenyellow; 
+    width: auto;
+    display: inline-block;
+    margin: 10px;
+    font-family: trajanus;
+
+}
+
+
+
+
+.ul-menu {
+    list-style: none;
+}
+
+.li-menu {
+    display: inline;
+    border: double 4px salmon;
+    /*font-size: larger;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.menu-bar {
+    display: none;
+}
+
+.menu-bar img {
+    width: 25px;
+}
+
+
+.subtitulo-subrayado {
+    background-color: salmon;
+    font-size: medium;
+    text-decoration: underline;
+    display: inline-block;
+
+
+}
+
+#p-main {
+    background-image:
+        url(./Images/Gatos/gatitos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+#p-main-perros {
+    background-image:
+        url(./Images/background/backperros.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    object-fit: cover;
+}
+
+#p-main-caballos {
+    background-image:
+        url(./Images/background/caballos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    object-fit: cover;
+}
+
+#p-main-tortugas {
+    background-image:
+        url(./Images/background/tortuga.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    object-fit: cover;
+}
+
+#p-main-aves {
+    background-image:
+        url(./Images/background/aves.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    object-fit: cover;
+}
+
+.main-index {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.texto {
+    width: 700px;
+    height: 320px;
+    background-color: rgb(197, 125, 116);
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.izquierda {
+    float: left;
+    width: 50%;
+    height: 300px;
+    padding: 0%;
+    margin: 0%;
+    border: solid greenyellow;
+
+}
+
+div.iframe {
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 100%;
+    bottom: 100%;
+    padding: 2%;
+    margin: 0;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p-final {
+    display: flex;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+
+.li-final {
+    display: inline;
+    font-family: cursive;
+    font-size: small;
+
+}
+
+.li-img {
+    width: 30px;
+    height: 25px;
+}
+
+.position-relative {
+    width: 70%;
+    position: relative;
+    left: 15%;
+    border: solid salmon;
+
+}
+
+
+
+
+
+@media screen and (min-width: 350px) and (max-width: 565px) {
+    .container-header {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas:
+            "titulos titulos menu-bar"
+        ;
+    }
+
+    .menu-bar {
+        display: block;
+        grid-area: menu-bar;
+        margin-left: 50%;
+    }
+
+    .titulos h3 {
+        display: none;
+    }
+
+    .titulos {
+        grid-area: titulos;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+
+
+
+
+
+    /* Main */
+    .main-index {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "intro intro intro"
+            "intro intro intro"
+            "intro intro intro";
+
+    }
+
+    #p-main {
+        grid-area: intro;
+    }
+
+    .subtitulo-subrayado {
+        display: none;
+
+    }
+
+    .texto {
+        width: 100%;
+        overflow: scroll;
+
+    }
+
+    .texto img {
+        width: 100%;
+        height: 150px;
+
+    }
+
+    .texto p {
+        width: 100%;
+
+
+
+    }
+
+
+    /* Footer */
+
+    .footer-index {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "redes redes redes";
+        justify-items: center;
+    }
+
+    .ul-final {
+        grid-area: redes;
+    }
+}
+
+
+
+
+
+
+@font-face {
+    font-family: trajanus;
+    src: url(./Typography/TrajanusBricks.ttf);
+}
