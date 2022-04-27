@@ -131,7 +131,7 @@
 /* Añadido de transformacion y transicion*/
 
 .texto:hover>.izquierda {
-    transform: scale(2);
+     transform: translateX(350px);
 }
 
 
