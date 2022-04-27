@@ -183,6 +183,27 @@ footer {
     height: 25px;
 }
 
+/* Animacion img */
+
+.section-animacion:hover>.position-relative{ 
+    animation: cambioColor (3s);
+}
+
+@keyframes cambioColor { 
+    0%{ 
+        border: solid 2px aqua;
+    }
+
+    50%{ 
+        border: solid 2px red;
+    }
+
+    100%{ 
+        border: solid 2px white; 
+    }
+}
+    
+
 .position-relative {
     width: 70%;
     position: relative;
