@@ -185,8 +185,8 @@ footer {
 
 /* Animacion img */
 
-.section-animacion:hover>.position-relative{ 
-    animation: cambioColor (3s);
+.section-animacion:hover>.p-final{ 
+    animation: cambioColor 3s;
 }
 
 @keyframes cambioColor { 
