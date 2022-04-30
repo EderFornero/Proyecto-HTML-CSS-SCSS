@@ -8,48 +8,9 @@
     background-color: lightgreen;
 }
 
-.fontsizeRaza {
-    font-family: trajanus;
+.nav-link {
+    font-family: monospace;
 }
-
-.h3-subrayado {
-    text-decoration: underline;
-    margin: 3px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-
-.h2-encuadro {
-    border: solid 2px greenyellow;
-    width: auto;
-    display: inline-block;
-    margin: 10px;
-    font-family: trajanus;
-
-}
-
-
-
-
-/* .ul-menu {
-    list-style: none;
-}
-
-.li-menu {
-    display: inline;
-    border: double 4px salmon;
-    /*font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-}*/
-
-
-/* .menu-bar {
-    display: none;
-}
-
-.menu-bar img {
-    width: 25px;
-} */
 
 
 .subtitulo-subrayado {
