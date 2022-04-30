@@ -4,6 +4,14 @@
 
 }
 
+.background-size {
+    background-color: lightgreen;
+}
+
+.fontsizeRaza {
+    font-family: trajanus;
+}
+
 .h3-subrayado {
     text-decoration: underline;
     margin: 3px;
@@ -136,13 +144,13 @@
 
 
 .izquierda {
-   float: left;
-   width: 50%;
-   height: 300px;
-   padding: 0%;
-   margin: 0%;
-   border: solid greenyellow;
-   transition: all 2s ease;
+    float: left;
+    width: 50%;
+    height: 300px;
+    padding: 0%;
+    margin: 0%;
+    border: solid greenyellow;
+    transition: all 2s ease;
 }
 
 
@@ -186,24 +194,24 @@ footer {
 
 /* Animacion img */
 
-.section-animacion:hover>.p-final{ 
+.section-animacion:hover>.p-final {
     animation: cambioColor 3s;
 }
 
-@keyframes cambioColor { 
-    0%{ 
+@keyframes cambioColor {
+    0% {
         border: solid 2px aqua;
     }
 
-    50%{ 
+    50% {
         border: solid 2px red;
     }
 
-    100%{ 
-        border: solid 2px white; 
+    100% {
+        border: solid 2px white;
     }
 }
-    
+
 
 .position-relative {
     width: 70%;
@@ -217,37 +225,12 @@ footer {
 
 
 
-@media screen and (min-width: 350px) and (max-width: 565px) {
-    .container-header {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        grid-template-areas:
-            "titulos titulos menu-bar"
-        ;
-    }
+@media screen and (min-width: 350px) and (max-width: 870px) {
 
-    .menu-bar {
-        display: block;
-        grid-area: menu-bar;
-        margin-left: 50%;
-    }
 
-    .titulos h3 {
+    .navbar-nav {
         display: none;
     }
-
-    .titulos {
-        grid-area: titulos;
-    }
-
-    .nav-bar {
-        display: none;
-    }
-
-
-
-
 
 
     /* Main */
@@ -305,6 +288,11 @@ footer {
     }
 }
 
+@media screen and (min-width:871px) and (max-width:991px) {
+    .navbar-nav {
+        display: none;
+    }
+}
 
 
 
