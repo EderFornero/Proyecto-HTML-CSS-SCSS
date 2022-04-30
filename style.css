@@ -1,6 +1,6 @@
 * {
-    margin: 5px;
-    padding: 2px;
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -23,7 +23,7 @@
 
 
 
-.ul-menu {
+/* .ul-menu {
     list-style: none;
 }
 
@@ -32,16 +32,16 @@
     border: double 4px salmon;
     /*font-size: larger;*/
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 
-.menu-bar {
+/* .menu-bar {
     display: none;
 }
 
 .menu-bar img {
     width: 25px;
-}
+} */
 
 
 .subtitulo-subrayado {
