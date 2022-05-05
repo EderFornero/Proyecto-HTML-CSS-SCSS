@@ -169,6 +169,13 @@
 
 /* Footer */
 
+.footerCarousel{ 
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     display: flex;
     justify-content: flex-end;
