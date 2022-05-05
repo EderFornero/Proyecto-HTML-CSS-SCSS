@@ -57,7 +57,7 @@
     object-fit: cover;
 }
 
-#p-main-caballos {
+/* #p-main-caballos {
     background-image:
         url(./Images/background/caballos.jpg);
     background-repeat: no-repeat;
@@ -67,9 +67,9 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     object-fit: cover;
-}
+} */
 
-#p-main-tortugas {
+/* #p-main-tortugas {
     background-image:
         url(./Images/background/tortuga.jpeg);
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     object-fit: cover;
-}
+} */
 
 #p-main-aves {
     background-image:
@@ -119,6 +119,32 @@
     /* transition: all 2s ease; */
 }
 
+.img-1{
+    width: 98%;
+    position: relative;
+    left: 2.5%;
+}
+
+.img-2{
+    width: 98%;
+    position: relative;
+    left: 2%;
+}
+
+.separarCarousel{ 
+    position: relative;
+    top: 10px;
+}
+
+.separarCarousel2{
+    position: relative;
+    top: 20px;
+}
+
+.separarCarousel3{
+    position: relative;
+    top: 30px;
+}
 
 /* div.iframe {
     width: 50%;

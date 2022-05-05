@@ -31,9 +31,9 @@
                     <div class="navbar-nav">
                         <a class="nav-link" aria-current="page" href="../index.html">Gatos</a>
                         <a class="nav-link" href="../Pages/perros.html">Perros</a>
-                        <a class="nav-link active" href="../Pages/caballos.html">Caballos</a>
-                        <a class="nav-link" href="../Pages/tortugas.html">Tortugas</a>
                         <a class="nav-link" href="../Pages/aves.html">Aves</a>
+                        <a class="nav-link" href="../Pages/tortugas.html">Tortugas</a>
+                        <a class="nav-link active" href="../Pages/caballos.html">Caballos</a>
                     </div>
             </div>
         </nav>
@@ -41,179 +41,164 @@
     </header>
 
     <!-- CONTENIDO PRINCIPAL etiqueta main-->
-    <div class="container">
-        <main>
 
-            <p id="p-main-caballos">
-                Raza, variedad, cepa, línea y población son términos frecuentemente utilizados. Son necesarias
-                definiciones
-                para cada uno.
 
-                Una <strong>RAZA</strong> es un grupo homogéneo, subespecífico, de animales domésticos que poseen
-                características externas definidas e identificables que permiten distinguirlos a simple vista, de otros
-                grupos definidos de la misma manera en la misma especie; también es un grupo homogéneo sobre el que,
-                debido
-                a la separación geográfica con otros grupos fenotípicamente similares, existe un acuerdo general sobre
-                su
-                identidad separada.
+    <div class="container-fluid separarCarousel">
 
-                De esta manera, las razas han sido desarrolladas en función de diferencias culturales o geográficas, y
-                para
-                satisfacer las necesidades humanas en materia de alimentación y agricultura. En este sentido "raza" no
-                es un
-                término técnico, pero las diferencias, tanto visuales como otras entre las razas, son las responsables
-                de la
-                mayor parte de la diversidad asociada con cada especie animal doméstica. "Raza" es aceptado más como un
-                término cultural que técnico, para poner el acento sobre la propiedad.
-            </p>
-
-        </main>
-
-        <!-- ETIQUETA SECTION PARA DIVIDIR TEMÁTICAS-->
-
-        <section id="container">
-
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <img class="izquierda" src="Images/orangetabby.jpg" alt="" width=500px height="300px">
-                </div>
-                <div class="texto col-lg-5 col-md-12 col-sm-12">
-                    <h3 class="subtitulo-subrayado"><em>Horse´s name</em></h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam exercitationem perferendis
-                        reprehenderit
-                        error quos. Magnam officia suscipit iusto nulla! Laborum nostrum excepturi voluptatibus quis
-                        quam
-                        exercitationem maiores dolorem assumenda sit!. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit.
-                        Voluptates laudantium nisi error obcaecati? Eos quos aliquam, quasi cupiditate accusantium fugit
-                        veniam
-                        fuga maxime commodi voluptatum sunt nostrum repudiandae architecto a?
-
-                    </p>
-                </div>
-
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-
-
-
-        </section>
-
-        <section class="container">
-
-
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <img class="izquierda" src="Images/abisinio.jpg" alt="" width=500px>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../Images/background/aves.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
                 </div>
-                <div class="texto col-lg-5 col-md-12 col-sm-12">
-                    <h3 class="subtitulo-subrayado"><em>Horse´s name</em></h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi libero optio reiciendis amet
-                        similique
-                        reprehenderit perferendis, voluptatibus cum voluptate adipisci esse officiis dicta quis iure,
-                        laudantium
-                        sapiente maiores suscipit! Ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eligendi
-                        officia quod ab qui hic molestias dicta dolore unde error doloribus in, nostrum dolorem non quae
-                        omnis
-                        nemo quisquam sed aliquid.
-
-                    </p>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
                 </div>
-
-
-
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
 
-
-        </section>
-
-
-        <section class="container">
-
-            <div class="row">
-
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <img class="izquierda" src="Images/bengala.jpg" alt="" width=500px>
+    <div class="container-fluid separarCarousel2">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../Images/background/aves.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
                 </div>
-                <div class="texto col-lg-5 col-md-12 col-sm-12">
-                    <h3 class="subtitulo-subrayado"><em>Horse´s name</em> </h3>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
                 </div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit id officiis obcaecati placeat
-                    repudiandae
-                    at, iure natus numquam voluptas temporibus consequatur, illo iusto mollitia commodi, aut fuga
-                    ratione
-                    delectus neque?. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim esse nulla nemo
-                    dolores
-                    consequatur ea ipsam rem ullam non recusandae dolor nostrum fuga reiciendis, aspernatur modi
-                    molestias.
-                    Vitae, corrupti magni.
-
-                </p>
-
-
-
-
-
-        </section>
-
-        <section class="container">
-
-            <div class="row">
-
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <img class="izquierda" src="Images/azulruso.jpg" alt="" width=500px>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
                 </div>
-                <div class="texto col-lg-5 col-md-12 col-sm-12">
-                    <h3 class="subtitulo-subrayado"><em>Horse´s name</em></h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, porro, beatae minima dolorum
-                        distinctio
-                        assumenda delectus fugit eaque optio placeat saepe odio odit amet explicabo rerum commodi sed
-                        iusto!
-                        Velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aperiam debitis incidunt
-                        eligendi,
-                        nulla repellendus sit assumenda autem? Tenetur nulla quod sequi perferendis esse officiis neque
-                        tempore
-                        ea aspernatur cupiditate!
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
 
-                    </p>
+    <div class="container-fluid separarCarousel3">
 
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../Images/background/aves.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
                 </div>
-
-
-
-
-
-
-        </section>
-        <!-- Sección final-->
-
-        <div>
-            <section class="section-animacion">
-                <h2 class="p-final">¡Amarlos es un privilegio!</h2>
-                <img class="position-relative" src="../Images/logos/prueba.png" alt="" width=850>
-
-
-            </section>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
+    </div>
 
 
 
-        <footer class="footer-index">
-            <ul class="ul-final">
-                <li class="li-final"><a href="https://www.instagram.com/zoologicodecali/?hl=es" target="_blank"><img
-                            class="li-img" src="../Images/logos/instagram.png"></a></li>
-                <li class="li-final"><a href="https://www.youtube.com/c/zoocalitv" target="_blank"><img class="li-img"
-                            src="../Images/logos/youtube-logo (1).jpg"></a></a></li>
-                <li class="li-final"><a href="https://www.zoologicodecali.com.co/" target="_blank"><img class="li-img"
-                            src="../Images/logos/zoo.jpg"></a></a></li>
-            </ul>
 
-        </footer>
+
+    <footer class="footer-index">
+        <ul class="ul-final">
+            <li class="li-final"><a href="https://www.instagram.com/zoologicodecali/?hl=es" target="_blank"><img
+                        class="li-img" src="../Images/logos/instagram.png"></a></li>
+            <li class="li-final"><a href="https://www.youtube.com/c/zoocalitv" target="_blank"><img class="li-img"
+                        src="../Images/logos/youtube-logo (1).jpg"></a></a></li>
+            <li class="li-final"><a href="https://www.zoologicodecali.com.co/" target="_blank"><img class="li-img"
+                        src="../Images/logos/zoo.jpg"></a></a></li>
+        </ul>
+
+    </footer>
     </div>
 
 
