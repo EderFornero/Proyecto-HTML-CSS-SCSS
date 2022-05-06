@@ -17,10 +17,6 @@
 }
 
 
-
-
-
-
 .subtitulo-subrayado {
     background-color: lightgreen;
     font-size: medium;
@@ -29,7 +25,7 @@
 }
 
 
-#p-main{
+#p-main {
     background-color: rgb(107, 175, 107);
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,7 +67,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     object-fit: cover;
-} 
+}
 
 #p-main-aves {
     background-color: rgb(107, 175, 107);
@@ -92,7 +88,7 @@
 
 .texto {
     margin: 1%;
-}  
+}
 
 /* Añadido de transformacion y transicion*/
 
@@ -110,29 +106,29 @@
     /* transition: all 2s ease; */
 }
 
-.img-1{
+.img-1 {
     width: 98%;
     position: relative;
     left: 2.5%;
 }
 
-.img-2{
+.img-2 {
     width: 98%;
     position: relative;
     left: 2%;
 }
 
-.separarCarousel{ 
+.separarCarousel {
     position: relative;
     top: 10px;
 }
 
-.separarCarousel2{
+.separarCarousel2 {
     position: relative;
     top: 20px;
 }
 
-.separarCarousel3{
+.separarCarousel3 {
     position: relative;
     top: 30px;
 }
@@ -160,7 +156,7 @@
 
 /* Footer */
 
-.footerCarousel{ 
+.footerCarousel {
     position: relative;
     top: 40px;
     display: flex;
@@ -242,10 +238,6 @@ footer {
 @media screen and (min-width: 350px) and (max-width: 870px) {
 
 
-    .navbar-nav {
-        display: none;
-    }
-
 
     /* Main */
     /*.main-index {
@@ -305,10 +297,8 @@ footer {
 
 
 
- @media screen and (min-width:871px) and (max-width:991px) {
-    .navbar-nav {
-        display: none;
-    }
+@media screen and (min-width:871px) and (max-width:991px) {
+
     .footer-index {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -321,7 +311,7 @@ footer {
     .ul-final {
         grid-area: redes;
     }
-} 
+}
 
 
 
