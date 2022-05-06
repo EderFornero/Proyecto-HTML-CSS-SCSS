@@ -26,6 +26,8 @@
 
 
 #p-main {
+    border: solid 1px black;
+    margin: 3px;
     background-color: rgb(107, 175, 107);
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,6 +38,8 @@
 }
 
 #p-main-perros {
+    border: solid 1px black;
+    margin: 3px;
     background-color: rgb(107, 175, 107);
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,6 +63,8 @@
 } */
 
 #p-main-tortugas {
+    border: solid 1px black;
+    margin: 3px;
     background-color: rgb(107, 175, 107);
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,6 +76,8 @@
 }
 
 #p-main-aves {
+    border: solid 1px black;
+    margin: 3px;
     background-color: rgb(107, 175, 107);
     background-repeat: no-repeat;
     background-size: cover;
