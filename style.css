@@ -29,8 +29,16 @@
 }
 
 
-
-
+#p-main::before{ 
+    background-image:
+        url(./Images/Gatos/gatitos.jpg);
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background: linear-gradient(lightgreen, lightblue);
+    opacity: 0.5;
+}
 
 
 #p-main {
@@ -69,7 +77,7 @@
     object-fit: cover;
 } */
 
-/* #p-main-tortugas {
+#p-main-tortugas {
     background-image:
         url(./Images/background/tortuga.jpeg);
     background-repeat: no-repeat;
@@ -79,7 +87,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     object-fit: cover;
-} */
+} 
 
 #p-main-aves {
     background-image:
