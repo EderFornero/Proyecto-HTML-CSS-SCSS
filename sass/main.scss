@@ -1,0 +1,17 @@
+/* Reseteo universal*/
+@import './base/resets';
+
+/* Variables */
+@import './abstracts/variables';
+
+/* Header */
+@import './_layout/header';
+
+/* Body */
+@import './_layout/body.scss';
+
+/* Animation */
+@import './_layout/animation';
+
+/* Media queries */
+@import './_layout/mediaq'

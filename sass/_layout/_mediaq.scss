@@ -1,0 +1,77 @@
+/* Mobile */
+@media screen and (min-width: 350px) and (max-width: 870px) {
+
+
+
+    /* Main */
+    /*.main-index {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "intro intro intro"
+            "intro intro intro"
+            "intro intro intro";
+
+    }
+
+    #p-main {
+        grid-area: intro;
+    }
+
+    .subtitulo-subrayado {
+        display: none;
+
+    }
+
+    .texto {
+        width: 100%;
+        overflow: scroll;
+
+    }
+
+    .texto img {
+        width: 100%;
+        height: 150px;
+
+    }
+
+    .texto p {
+        width: 100%;
+    }
+
+
+    /* Footer */
+
+    .footer-index {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "redes redes redes";
+        justify-items: center;
+    }
+
+    .ul-final {
+        grid-area: redes;
+    }
+}
+
+
+/* Tablet */
+@media screen and (min-width:871px) and (max-width:991px) {
+
+    .footer-index {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "redes redes redes";
+        justify-items: center;
+    }
+
+    .ul-final {
+        grid-area: redes;
+    }
+}

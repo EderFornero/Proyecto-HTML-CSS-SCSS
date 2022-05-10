@@ -1,0 +1,94 @@
+/* Texto main*/
+#p-main {
+    border: solid 1px black;
+    margin: 3px;
+    background-color: rgb(107, 175, 107);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: medium;
+    $fontArial: Arial, Helvetica, sans-serif;
+    color: black;
+}
+/* Subtitulo */
+.subtitulo-subrayado {
+    background-color: lightgreen;
+    font-size: medium;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.texto {
+    margin: 1%;
+}
+
+/* Imagenes */
+.izquierda {
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    margin: 1%;
+    border: solid lightgreen;
+    /* transition: all 2s ease; */
+    
+    .img-1 {
+        width: 98%;
+        position: relative;
+        left: 2.5%;
+    }
+    
+    .img-2 {
+        width: 98%;
+        position: relative;
+        left: 2%;
+    }
+}
+
+/* Carousel */
+.separarCarousel {
+    position: relative;
+    top: 10px;
+}
+
+.separarCarousel2 {
+    position: relative;
+    top: 20px;
+}
+
+.separarCarousel3 {
+    position: relative;
+    top: 30px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footerCarousel {
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.p-final {
+    display: flex;
+    text-decoration: underline;
+    $fontTime: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    justify-content: center;
+    
+    /* Aplicando &*/
+    & {
+        width: 30px;
+        height: 25px;
+    }
+}
+
+
+
+
