@@ -6,4 +6,10 @@
     }
 }
 
+.navbar-collapse, 
+.navbar-expand-lg{ 
+    display: flex;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
 

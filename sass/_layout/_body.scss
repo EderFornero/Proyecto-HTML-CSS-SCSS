@@ -82,13 +82,15 @@ footer {
     font-size: xx-large;
     justify-content: center;
     
-    /* Aplicando &*/
-    & {
-        width: 30px;
-        height: 25px;
-    }
 }
 
+.li-img {
+    width: 30px;
+    height: 25px;
+}
 
-
-
+.li-final {
+    display: inline;
+    font-family: cursive;
+    font-size: small;
+}
