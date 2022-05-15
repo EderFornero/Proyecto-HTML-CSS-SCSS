@@ -1,3 +1,6 @@
+@import '../abstracts/mapa';
+@import '../abstracts/mixin';
+
 /* Texto main*/
 #p-main {
     border: solid 1px black;
@@ -7,9 +10,12 @@
     background-size: cover;
     background-position: center;
     font-size: medium;
-    $fontArial: Arial, Helvetica, sans-serif;
+    $fontArial: Arial,
+    Helvetica,
+    sans-serif;
     color: black;
 }
+
 /* Subtitulo */
 .subtitulo-subrayado {
     background-color: lightgreen;
@@ -24,73 +30,60 @@
 
 /* Imagenes */
 .izquierda {
-    width: 100%;
-    height: 300px;
-    padding: 0;
-    margin: 1%;
-    border: solid lightgreen;
-    
-    
-    .img-1 {
-        width: 98%;
-        position: relative;
-        left: 2.5%;
+    width: map-get($mapImg , width);
+    height: map-get($mapImg , height);
+    padding: map-get($mapImg , padding);
+    margin: map-get($mapImg , margin);
+    border: map-get($mapImg , border);
+}
+
+    /* Carousel */
+    .separarCarousel {
+        @include flex (relative, 10px);
     }
-    
-    .img-2 {
-        width: 98%;
-        position: relative;
-        left: 2%;
+
+    .separarCarousel2 {
+        @include flex (relative, 20px);
     }
-}
 
-/* Carousel */
-.separarCarousel {
-    position: relative;
-    top: 10px;
-}
+    .separarCarousel3 {
+        @include flex (relative, 30px);
+    }
 
-.separarCarousel2 {
-    position: relative;
-    top: 20px;
-}
+    /* Footer */
 
-.separarCarousel3 {
-    position: relative;
-    top: 30px;
-}
+    footer {
+        display: flex;
+        justify-content: flex-end;
+    }
 
-/* Footer */
-
-footer {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.footerCarousel {
-    position: relative;
-    top: 40px;
-    display: flex;
-    justify-content: center;
-}
+    .footerCarousel {
+        position: relative;
+        top: 40px;
+        display: flex;
+        justify-content: center;
+    }
 
 
-.p-final {
-    display: flex;
-    text-decoration: underline;
-    $fontTime: Georgia, 'Times New Roman', Times, serif;
-    font-size: xx-large;
-    justify-content: center;
-    
-}
+    .p-final {
+        display: flex;
+        text-decoration: underline;
+        $fontTime: Georgia,
+        'Times New Roman',
+        Times,
+        serif;
+        font-size: xx-large;
+        justify-content: center;
 
-.li-img {
-    width: 30px;
-    height: 25px;
-}
+    }
 
-.li-final {
-    display: inline;
-    font-family: cursive;
-    font-size: small;
-}
+    .li-img {
+        width: 30px;
+        height: 25px;
+    }
+
+    .li-final {
+        display: inline;
+        font-family: cursive;
+        font-size: small;
+    }

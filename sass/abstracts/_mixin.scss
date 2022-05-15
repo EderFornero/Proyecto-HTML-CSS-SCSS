@@ -1,0 +1,6 @@
+/* Mixin */
+
+@mixin flex ($position, $top){ 
+     position: $position;
+     top: $top;
+}

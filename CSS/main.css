@@ -8,13 +8,7 @@
 /* bg color */
 /* typography */
 /* Header */
-.background-size {
-  background-color: lightgreen;
-}
-.background-size .nav-link {
-  font-family: monospace;
-}
-
+/* Extend */
 .navbar-collapse,
 .navbar-expand-lg {
   display: flex;
@@ -22,7 +16,15 @@
   justify-content: flex-end;
 }
 
+.background-size {
+  background-color: lightgreen;
+}
+.background-size .nav-link {
+  font-family: monospace;
+}
+
 /* Body */
+/* Mixin */
 /* Texto main*/
 #p-main {
   border: solid 1px black;
@@ -51,19 +53,9 @@
 .izquierda {
   width: 100%;
   height: 300px;
-  padding: 0;
+  padding: 0%;
   margin: 1%;
   border: solid lightgreen;
-}
-.izquierda .img-1 {
-  width: 98%;
-  position: relative;
-  left: 2.5%;
-}
-.izquierda .img-2 {
-  width: 98%;
-  position: relative;
-  left: 2%;
 }
 
 /* Carousel */
