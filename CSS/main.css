@@ -9,23 +9,49 @@
 /* typography */
 /* Header */
 /* Extend */
-.navbar-collapse,
-.navbar-expand-lg {
-  display: flex;
-  flex-basis: auto;
-  justify-content: flex-end;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
-.background-size {
-  background-color: lightgreen;
+.bg-color {
+  background-color: rgb(15, 48, 20);
 }
-.background-size .nav-link {
-  font-family: monospace;
+
+header nav div ul li a:hover {
+  background: darkgreen;
+}
+
+.logo {
+  width: 20%;
+  height: 30px;
+}
+
+a {
+  font-family: cursive;
+  color: white !important;
 }
 
 /* Body */
 /* Mixin */
+.word {
+  background-color: wheat;
+}
+
+.bg-all {
+  background: url("https://cdn.pixabay.com/photo/2015/12/26/05/53/wood-1108307_960_720.jpg");
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+
 /* Texto main*/
+.separoMain {
+  margin: 20px;
+  padding: 40px;
+}
+
 #p-main {
   border: solid 1px black;
   margin: 3px;
@@ -88,10 +114,10 @@ footer {
 }
 
 .p-final {
-  display: flex;
+  align-items: center;
+  text-align: center;
   text-decoration: underline;
   font-size: xx-large;
-  justify-content: center;
 }
 
 .li-img {
@@ -105,22 +131,6 @@ footer {
   font-size: small;
 }
 
-/* Animation */
-.section-animacion:hover > .p-final {
-  animation: cambioColor 3s;
-}
-
-@keyframes cambioColor {
-  0% {
-    border: solid 2px aqua;
-  }
-  50% {
-    border: solid 2px red;
-  }
-  100% {
-    border: solid 2px white;
-  }
-}
 .position-relative {
   width: 70%;
   position: relative;
@@ -128,6 +138,7 @@ footer {
   border: solid salmon;
 }
 
+/* Animation */
 /* Media queries */
 /* Mobile */
 @media screen and (min-width: 350px) and (max-width: 870px) {

@@ -1,7 +1,23 @@
 @import '../abstracts/mapa';
 @import '../abstracts/mixin';
 
+.word {
+    background-color: wheat;
+}
+
+.bg-all {
+    background: url("https://cdn.pixabay.com/photo/2015/12/26/05/53/wood-1108307_960_720.jpg");
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
 /* Texto main*/
+
+.separoMain {
+    margin: 20px;
+    padding: 40px;
+}
+
 #p-main {
     border: solid 1px black;
     margin: 3px;
@@ -37,53 +53,60 @@
     border: map-get($mapImg , border);
 }
 
-    /* Carousel */
-    .separarCarousel {
-        @include flex (relative, 10px);
-    }
+/* Carousel */
+.separarCarousel {
+    @include flex (relative, 10px);
+}
 
-    .separarCarousel2 {
-        @include flex (relative, 20px);
-    }
+.separarCarousel2 {
+    @include flex (relative, 20px);
+}
 
-    .separarCarousel3 {
-        @include flex (relative, 30px);
-    }
+.separarCarousel3 {
+    @include flex (relative, 30px);
+}
 
-    /* Footer */
+/* Footer */
 
-    footer {
-        display: flex;
-        justify-content: flex-end;
-    }
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
 
-    .footerCarousel {
-        position: relative;
-        top: 40px;
-        display: flex;
-        justify-content: center;
-    }
+.footerCarousel {
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+}
 
+.p-final {
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+    $fontTime: Georgia,
+    'Times New Roman',
+    Times,
+    serif;
+    font-size: xx-large;
 
-    .p-final {
-        display: flex;
-        text-decoration: underline;
-        $fontTime: Georgia,
-        'Times New Roman',
-        Times,
-        serif;
-        font-size: xx-large;
-        justify-content: center;
+}
 
-    }
+.li-img {
+    width: 30px;
+    height: 25px;
+}
 
-    .li-img {
-        width: 30px;
-        height: 25px;
-    }
+.li-final {
+    display: inline;
+    font-family: cursive;
+    font-size: small;
+}
 
-    .li-final {
-        display: inline;
-        font-family: cursive;
-        font-size: small;
-    }
+.position-relative {
+    width: 70%;
+    position: relative;
+    left: 15%;
+    border: solid salmon;
+
+}
