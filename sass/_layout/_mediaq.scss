@@ -1,4 +1,58 @@
 /* Mobile */
+/* Saco la lista porque se me rompe la estructura, además de que fijandomé no encontré dispositivos a esas medidas, es decir, el navbar se ve en todos los dispositivos*/
+@media screen and (min-width: 572px) and (max-width: 770px) {
+    .navbar-nav {
+        display: none !important;
+    }
+}
+
+
+
+@media screen and (min-width: 991px) {
+    .displayImg {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 991px) {
+
+    .positionImg1,
+    .positionImg2,
+    .positionImg3 {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 450px) {
+    .divP{
+        h1{font-size: 20px;
+        padding: 0;
+        margin: 20%;} 
+    }
+    .p-inicial{ 
+        font-size: 16px;
+    }
+    .position-text{ 
+        font-size: 16px;
+    }
+    .img-inicio {
+        width: 90px;
+        height: 120px;
+    }
+}
+
+
+
+@media screen and (min-width: 451px) and (max-width: 767px) {
+    .img-inicio {
+        width: 120px;
+        height: 150px;
+    }
+
+}
+
 @media screen and (min-width: 350px) and (max-width: 870px) {
 
     /* Footer */

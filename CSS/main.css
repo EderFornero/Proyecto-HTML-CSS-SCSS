@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Reseteo universal*/
 * {
   margin: 0px;
@@ -25,8 +26,8 @@ header nav div ul li a:hover {
 }
 
 .logo {
-  width: 20%;
-  height: 30px;
+  width: 50px;
+  height: 40px;
 }
 
 a {
@@ -36,16 +37,96 @@ a {
 
 /* Body */
 /* Mixin */
+.divAll {
+  padding: 10px;
+  margin: 5px;
+}
+
+/*Background general*/
+.bg-all {
+  background: url("https://cdn.pixabay.com/photo/2015/12/26/05/53/wood-1108307_960_720.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+/*Background formato word*/
 .word {
   background-color: wheat;
 }
 
-.bg-all {
-  background: url("https://cdn.pixabay.com/photo/2015/12/26/05/53/wood-1108307_960_720.jpg");
-  background-size: contain;
-  background-repeat: repeat-y;
+/*Div titulo*/
+.divP {
+  padding: 20px;
+  margin: 59px;
+  display: grid;
 }
 
+.divIzq {
+  grid-template-columns: repeat(3, 1fr);
+}
+.divIzq h1 {
+  border: solid 2px green;
+  text-decoration: underline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(66, 43, 43);
+  text-align: center;
+}
+
+/*Parrafo inicial*/
+.p-inicial {
+  padding: 10px;
+  color: rgb(66, 43, 43);
+  text-align: justify;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+
+/*Parrafo siguiente*/
+.position-text {
+  text-align: justify;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+/*Imagenes 2do parrafo*/
+.img-inicio {
+  background-color: white;
+  padding: 5px;
+  width: 185px;
+  height: 200px;
+}
+
+.positionImg1 {
+  position: relative;
+  top: 1%;
+  left: 45%;
+}
+
+.positionImg2 {
+  position: relative;
+  right: 30%;
+  top: 33%;
+}
+
+.positionImg3 {
+  position: relative;
+  top: 37%;
+  left: 45%;
+}
+
+.bg-img {
+  background: linear-gradient(to left top, rgb(104, 207, 104), rgb(15, 134, 15));
+}
+
+.displayImg {
+  display: flex;
+}
+.displayImg .display {
+  margin: 10px;
+  display: inline;
+}
+
+/*Termina img 2do parrafo*/
 /* Texto main*/
 .separoMain {
   margin: 20px;
@@ -141,6 +222,50 @@ footer {
 /* Animation */
 /* Media queries */
 /* Mobile */
+/* Saco la lista porque se me rompe la estructura, además de que fijandomé no encontré dispositivos a esas medidas, es decir, el navbar se ve en todos los dispositivos*/
+@media screen and (min-width: 572px) and (max-width: 770px) {
+  .navbar-nav {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 991px) {
+  .displayImg {
+    display: none;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 991px) {
+  .positionImg1,
+.positionImg2,
+.positionImg3 {
+    display: none;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 450px) {
+  .divP h1 {
+    font-size: 20px;
+    padding: 0;
+    margin: 20%;
+  }
+
+  .p-inicial {
+    font-size: 16px;
+  }
+
+  .position-text {
+    font-size: 16px;
+  }
+
+  .img-inicio {
+    width: 90px;
+    height: 120px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 767px) {
+  .img-inicio {
+    width: 120px;
+    height: 150px;
+  }
+}
 @media screen and (min-width: 350px) and (max-width: 870px) {
   /* Footer */
   .footer-index {

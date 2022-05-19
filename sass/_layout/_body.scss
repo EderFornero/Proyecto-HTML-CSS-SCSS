@@ -1,15 +1,101 @@
 @import '../abstracts/mapa';
 @import '../abstracts/mixin';
 
+.divAll{ 
+    padding: 10px;
+    margin: 5px;
+}
+/*Background general*/
+.bg-all {
+    background: url("https://cdn.pixabay.com/photo/2015/12/26/05/53/wood-1108307_960_720.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+/*Background formato word*/
 .word {
     background-color: wheat;
 }
 
-.bg-all {
-    background: url("https://cdn.pixabay.com/photo/2015/12/26/05/53/wood-1108307_960_720.jpg");
-    background-size: contain;
-    background-repeat: repeat-y;
+/*Div titulo*/
+.divP {
+    padding: 20px;
+    margin: 59px;
+    display: grid;
 }
+
+.divIzq {
+    grid-template-columns: repeat(3, 1fr);
+
+    h1 {
+        border: solid 2px green;
+        text-decoration: underline;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(66, 43, 43);
+        text-align: center;
+    }
+
+}
+
+/*Parrafo inicial*/
+.p-inicial {
+    padding: 10px;
+    color: rgb(66, 43, 43);
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+/*Parrafo siguiente*/
+.position-text {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/*Imagenes 2do parrafo*/
+.img-inicio {
+    background-color: white;
+    padding: 5px;
+    width: 185px;
+    height: 200px;
+}
+
+.positionImg1 {
+    position: relative;
+    top: 1%;
+    left: 45%;
+}
+
+.positionImg2 {
+    position: relative;
+    right: 30%;
+    top: 33%;
+}
+
+.positionImg3 {
+    position: relative;
+    top: 37%;
+    left: 45%;
+}
+
+.bg-img{ 
+    background: linear-gradient(to left top, rgb(104, 207, 104), rgb(15, 134, 15))
+}
+
+.displayImg {
+    display: flex;
+    
+
+    .display { 
+        margin: 10px;
+        display: inline;
+    }
+}
+/*Termina img 2do parrafo*/
+
+
+
+
 
 /* Texto main*/
 
