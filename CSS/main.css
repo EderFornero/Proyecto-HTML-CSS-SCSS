@@ -286,6 +286,16 @@ footer .copy {
   .displayImg {
     display: none;
   }
+
+  .golden-chihuahua {
+    position: relative;
+    top: 50px;
+  }
+
+  .bengalaP {
+    position: relative;
+    top: 20px;
+  }
 }
 @media screen and (min-width: 350px) and (max-width: 991px) {
   .titulo-green,
