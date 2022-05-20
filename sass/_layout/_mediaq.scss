@@ -1,7 +1,7 @@
 /* Mobile */
 /* Saco la lista porque se me rompe la estructura, además de que fijandomé no encontré dispositivos a esas medidas, es decir, el navbar se ve en todos los dispositivos*/
 @media screen and (min-width: 572px) and (max-width: 770px) {
-    .navbar-nav {
+    .display-link {
         display: none !important;
     }
 }
@@ -17,6 +17,21 @@
 
 @media screen and (min-width: 350px) and (max-width: 991px) {
 
+    .titulo-green,
+    .titulo-salmon {
+        font-size: 16px;
+    }
+
+    .displayImg {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        .columns {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
     .positionImg1,
     .positionImg2,
     .positionImg3 {
@@ -26,34 +41,70 @@
 }
 
 @media screen and (min-width: 350px) and (max-width: 450px) {
-    .divP{
-        h1{font-size: 20px;
-        padding: 0;
-        margin: 20%;} 
+    .divP {
+        h1 {
+            font-size: 20px;
+            padding: 0;
+            margin: 20%;
+        }
     }
-    .p-inicial{ 
+
+    .p-inicial {
         font-size: 16px;
     }
-    .position-text{ 
+
+    .position-text {
         font-size: 16px;
     }
-    .img-inicio {
-        width: 90px;
-        height: 120px;
+
+    .displayImg {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        .columns {
+            width: 100%;
+        }
     }
 }
 
 
 
-@media screen and (min-width: 451px) and (max-width: 767px) {
-    .img-inicio {
-        width: 120px;
-        height: 150px;
+@media screen and (min-width: 350px) and (max-width: 767px) {
+
+    .pyg-img,
+    .pyp-img {
+        width: 100%;
+        height: 200px;
+        padding: 0.2%;
+        margin: 0%;
     }
 
+    .divP {
+        .divIzq {
+            h1{ 
+                align-items: center;
+                margin: 25px;
+                width: 80%;
+            }
+            .p-inicial {
+                display: none !important;
+            }
+        }
+    }
+
+    .img-inicio {
+        width: 100px;
+        height: 130px;
+    }
+
+    .displayImg {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media screen and (min-width: 350px) and (max-width: 870px) {
+
 
     /* Footer */
 
