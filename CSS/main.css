@@ -296,6 +296,11 @@ footer .copy {
     position: relative;
     top: 20px;
   }
+
+  .position-p {
+    position: relative;
+    top: 30px;
+  }
 }
 @media screen and (min-width: 350px) and (max-width: 991px) {
   .titulo-green,
