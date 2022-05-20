@@ -37,6 +37,11 @@ a {
 
 /* Body */
 /* Mixin */
+.redes-sociales i:hover {
+  transform: scale(2);
+  transition: all 1s;
+}
+
 .divAll {
   padding: 10px;
   margin: 5px;
@@ -262,13 +267,13 @@ footer .copy {
   height: 20px;
 }
 
+/*-----------------------*/
+/* Animation */
 .redes-sociales i:hover {
   transform: scale(2);
   transition: all 1s;
 }
 
-/*-----------------------*/
-/* Animation */
 /* Media queries */
 /* Mobile */
 /* Saco la lista porque se me rompe la estructura, además de que fijandomé no encontré dispositivos a esas medidas, es decir, el navbar se ve en todos los dispositivos*/

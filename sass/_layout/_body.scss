@@ -1,5 +1,6 @@
 @import '../abstracts/mapa';
 @import '../abstracts/mixin';
+@import '../_layout/animation';
 
 .divAll {
     padding: 10px;
@@ -234,12 +235,5 @@ footer .copy {
     height: 20px;
 }
 
-.redes-sociales {
-
-    i:hover {
-        transform: scale(2);
-        transition: all 1s;
-    }
-}
 
 /*-----------------------*/
