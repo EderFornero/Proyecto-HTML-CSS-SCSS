@@ -104,6 +104,30 @@
     left: 45%;
 }
 
+.huellas-1{
+    width: 80px;
+    height: 100px;
+    position: relative;
+    left: 120px;
+    top: 10px;
+}
+
+.huellas-2{ 
+    width: 80px;
+    height: 100px;
+    position: relative;
+    bottom: 200px;
+    right: 36%;
+}
+
+.huellas-3{
+    width: 100px;
+    height: 120px;
+    position: relative;
+    top: 35%;
+    right: 55%;
+}
+
 .bg-img {
     background: linear-gradient(to left top, rgb(104, 207, 104), rgb(15, 134, 15))
 }
@@ -168,6 +192,7 @@
     padding: map-get($mapImg , padding);
     margin: map-get($mapImg , margin);
     border: map-get($mapImg , border);
+    object-fit:cover;
 }
 
 /*-----------------------*/
